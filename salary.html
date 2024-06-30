@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript salary calculator</title>
+    
+</head>
+<body>
+    <h1>Salary calculator</h1>
+
+<form name=f1>
+    <table border="1">
+        <tr>
+    <td>Gross salary:</td> <td><input type="text" name="t1"><br></td>
+</tr>
+
+   <tr>
+    <td>NHIF Deductions:</td> <td> <input type="text" name="t2" readonly></td>
+</tr>
+   
+   <tr>
+    <td> NSSF Deductions:</td> <td><input type="text" name="t3" readonly></td>
+</tr>
+    
+   <tr>
+    <td>Monthly taxable Income:</td> <td><input type="text" name="t4" readonly></td>
+</tr>
+
+    
+   <tr>
+    <td>PAYE:</td> <td><input type="text" name="t5" readonly></td>
+</tr>
+
+   <tr>
+    <td>Net Salary:</td> <td><input type="text" name="t6" readonly></td>
+</tr>
+
+<tr>
+   <td> <input type="button" name="b1" value="Calculate Net salary" onclick="calculateNetSalary()"></td>
+    <td> <input type="reset" name="b2" value="Reset"></td>
+</tr>
+    </table>
+
+</form>
+  
+    <script src="./netcalculator.js"></script>
+</body>
+</html>
