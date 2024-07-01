@@ -1,1 +1,6 @@
-# wk1-code-challenge
+WK1 CODE CHALLENGE 
+-By Ivy Nyambura
+
+Learning goals
+*using functions and conditions
+
