@@ -1,4 +1,4 @@
-function calculateNetSalary(){
+function NetSalary(){
     const grossSalary = parseFloat(document.f1.t1.value) || 0;
     const nhif = calculateNhif(grossSalary);
     const nssf = calculateNssf(grossSalary);
