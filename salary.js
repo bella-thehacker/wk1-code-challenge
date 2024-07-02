@@ -27,7 +27,7 @@ function calculatePaye(taxableIncome){
     }else{
         paye = 2400 + (32333 - 24000) * 0.25 + (taxableIncome - 32333) *0.3;
     }
-    return paye;
+    return paye; 
 }
 
 function calculateNhif(grossSalary){
