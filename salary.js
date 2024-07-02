@@ -1,4 +1,4 @@
-function NetSalary(){
+function CalculateNetSalary(){
     const grossSalary = parseFloat(document.f1.t1.value) || 0;
     const nhif = calculateNhif(grossSalary);
     const nssf = calculateNssf(grossSalary);
@@ -26,8 +26,7 @@ function calculatePaye(taxableIncome){
         paye = 2400 +(taxableIncome - 24000) * 0.25;
     }else{
         paye = 2400 + (32333 - 24000) * 0.25 + (taxableIncome - 32333) *0.3;
-    }
-    return paye; 
+    }    return paye;
 }
 
 function calculateNhif(grossSalary){
