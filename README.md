@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
 
 >>>>>>> origin/main
 # Wk1-Code-Challenge - Toy Problems
