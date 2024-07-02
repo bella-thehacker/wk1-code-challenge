@@ -1,11 +1,4 @@
-WK1 CODE CHALLENGE
 
-## By Ivy Nyambura
-@@ -51,6 +52,77 @@ a-b); calling the function without any parameters will give the output.
-
-
-\- Click this link to see the live website [https://github.com/bella-thehacker/wk1-code-challenge.git]
-=======
 # Wk1-Code-Challenge - Toy Problems
 
 
